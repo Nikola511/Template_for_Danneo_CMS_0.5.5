@@ -1,0 +1,112 @@
+/* Menu */ 
+.menu, .menu ul {
+        background: transparent; 
+        margin: 0; 
+	list-style-type: none; 
+}
+
+.menu li{
+	position:relative;
+	margin-right:-4px;
+	cursor: pointer;
+	float: left;
+	padding: 10px 5px; 
+} 
+.menu li a:link,
+.menu li a:visited { 
+	background-color: transparent; 
+        display: block;   
+	color: #ffffff;
+	font-size: 14px;
+	text-shadow: 1px 1px 1px #003300;
+	line-height: 29px;
+	margin: 0;
+	padding: 1px 15px;
+	text-decoration: none;  
+        text-transform: uppercase; 
+}
+.menu li:hover a {
+        background: url(../images/tmenu.png) repeat-x center;
+        color: #ffffff;
+	text-shadow: 1px 1px 1px #003300; 
+	padding: 0 14px; 
+        border: 1px solid rgba(169, 253, 169, 0.9); 
+        border-radius: 2px; 
+} 
+.menu li a:hover    { 
+        background: url(../images/tmenu.png) repeat-x center; 
+        color: #ffffff; 
+	padding: 0 14px;   
+	text-shadow: 1px 1px 1px #003300;
+        border: 1px solid rgba(169, 253, 169, 0.9); 
+        border-radius: 2px;     
+}
+.menu li a:focus,  
+.menu li a:active  {   
+        color: #fff;   
+	text-shadow: 1px 1px 1px #003300;
+        background: url(../images/tmenu.png) repeat-x center;
+        border: 1px solid rgba(169, 253, 169, 0.9) !important; 
+        border-radius: 2px;  
+        }
+        /**************/ 
+.menu li ul {      
+	position:absolute;
+	top: 39px;
+	left: 5px;
+	width: 232px;
+	height: 0; 
+	padding: 12px 0 0;
+	overflow: hidden;
+	background-color: transparent;
+	-webkit-transition: all 0.3s linear;
+	   -moz-transition: all 0.3s linear;
+	    -ms-transition: all 0.3s linear;
+	     -o-transition: all 0.3s linear;
+	        transition: all 0.3s linear;
+	opacity: 0;
+	z-index: 10;
+}
+.menu li:hover ul{
+	height: auto;
+	opacity: 1;
+	background-color: transparent; 
+}
+/**/
+.menu li ul li { 
+        background: transparent;
+	line-height: 27px;
+	width: 230px;
+	padding: 0px;  
+	cursor: pointer;
+        border: 1px solid rgba(68, 136, 0, 1) !important;   
+        border-radius: 3px; 
+	
+}
+.menu li ul li:hover{
+        background: transparent; 
+        border-radius: 3px; 
+}
+/**/
+.menu li ul li a:link,
+.menu li ul li a:visited { 
+        text-transform: none;
+        background: #416841; 
+        color: #ffffff;  
+	text-shadow: 1px 1px 1px #336633;
+        display: block; 
+	padding: 0 16px;
+        border-radius: 3px;  
+	
+} 
+.menu li ul li a:hover { 
+        display: block;
+        background: url(../images/tmenu.png);
+        border-radius: 3px;  
+	
+}  
+.menu li ul li:hover {  
+        background: url(../images/tmenu.png); 
+        border-radius: 3px;   
+	
+}

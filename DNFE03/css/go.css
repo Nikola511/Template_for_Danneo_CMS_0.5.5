@@ -1,0 +1,110 @@
+/**
+ * Project:      CMS Danneo : Content management system
+ * File:         GO.css
+ * @version	 $Id: Danneo CMS v.0.5.4 Release $
+ * @package      CMS Danneo basis kernel
+ * @copyright    Copyright (C) 2004 - 2010 Danneo Team. All rights reserved.
+ * @link         http://danneo.com, http://danneo.ru
+ * @license      http://www.gnu.org/licenses/gpl-2.0.html   GNU General Public License, version 2
+ */
+*     { margin: 0px;
+	padding: 0px;
+	font-size: 1em;
+	text-decoration: none;
+	border: none;
+	list-style: none;
+	outline: none; 
+}
+
+html  { background: #023e02 url(../images/bg-bot.png) no-repeat 67% 52%;
+	position: absolute;
+	top: 0px;
+	left: 0px; 
+	width: 100%; 
+	min-height: 100%; 
+        box-shadow: inset 0px 0px 150px #000000; 
+}
+@-moz-document url-prefix() { 
+html  { background: #023e02 url(../images/bg-bot.png) no-repeat -273% -116%; } 
+} 
+* html    { background: #023e02; }
+
+a:link,
+a:visited { color: #000000; text-decoration: none; }
+a:hover	  { color: #999999; border: none; }  
+ 
+*:focus   { outline: none; }
+input, a  { outline: expression(hideFocus = 'true'); outline: none; }
+
+body  { font: 13px/20px "Helvetica Neue", Arial, sans-serif;
+	background-color: #dddddd; 
+	position: absolute;
+	top: 47%;
+	left: 50%;
+	margin: -180px 0px 0px -325px;
+	width: 650px;  
+	padding: 10px;   
+        border: 1px solid #eeeeee; 
+	border-radius: 5px; 
+        box-shadow: 0px 0px 12px #000000; 
+}
+div   { background-color: #ffffff;
+	color: #333333;
+        text-align: center; 
+        text-shadow: 1px 1px 1px #eeeeee;
+	margin: 0px; 
+        padding: 40px 60px; 
+	border: 1px solid #999999; 
+}
+div h1 {display: block;
+        color: #3db549;
+	font-size: 64px; 
+	font-weight: normal;
+        text-shadow: 1px 1px 1px #cccccc;
+	margin: 0px;
+	padding: 10px 0px 35px;
+}
+div h2 {display: block;
+        color: #000000;
+	font-size: 14px; 
+	font-weight: normal;
+	padding: 0px 0px 10px;
+}
+div strong { 
+        display: block;  
+        color: #000000;
+	font-size: 18px; 
+	font-weight: normal;
+        height: 10px; 
+	margin: 0px;
+	padding: 0px 0px 5px;
+}
+ 
+/* Buton Forms */
+.go   { background: #eeeeee url(../images/grey-bg.gif) repeat-x;
+	font: 13px/20px Arial, sans-serif;
+	color: #333333;
+        display: block;   
+        width: 120px;  
+        line-height: 27px;
+        margin: 30px auto 0px;
+	letter-spacing: 1px; 
+        cursor: pointer;
+	border: 1px solid #bbbbbb; 
+	border-radius: 2px;
+        text-shadow: 1px 1px 0px #ffffff;
+        text-transform: lowercase;
+}
+.go:hover { 
+        background: #dddddd url(../images/grey-bg-on.gif) repeat-x; 
+        color: #000000; 
+} 
+.go:active, 
+.go:focus { 
+        color: #000000; 
+        background: #dddddd url(../images/grey-bg-on.gif) repeat-x;  
+	border: 1px solid #333333;
+}
+.go:before            { color: #333333; content:"\00AB "; } 
+.go:hover:before      { color: #333333; content:"\00AB "; }  
+

@@ -1,0 +1,39 @@
+/**
+ *  IE6, IE7
+ */
+
+#wrap { 
+        border: 2px solid #8b6a6a; 
+}
+* html #wrap { 
+        width: 928px;  /* IE6 */
+}
+* html #logo { 
+        width: 978px;  /* IE6 */
+} 
+button#pol span { 
+       padding: 4px 10px; 
+} 
+button.sub span { 
+       padding: 4px 25px; 
+} 
+* html .ajax-rating li a:hover	{ 
+       background-position: 0px 115%; /* IE6 */ 
+}
+.menu li:hover a { 
+       border: 1px solid #e4dcdc; 
+}
+.menu li a:hover { 
+       border: 1px solid #e4dcdc; 
+} 
+.menu li a:focus,  
+.menu li a:active  { 
+       border: 1px solid #e4dcdc; 
+} 
+.menu li ul li { 
+       border: 1px solid #9d6867 !important; 
+} 
+* html .grippie  {
+       margin-left: 153px;
+}
+
