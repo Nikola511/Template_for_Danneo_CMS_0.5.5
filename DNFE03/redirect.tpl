@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="{langcharset}" /> 
-<title>Сообщение</title>  
+<title>РЎРѕРѕР±С‰РµРЅРёРµ</title>  
 <link rel="stylesheet" href="{site_url}/temp/{site_temp}/css/go.css" />
 <script>location.replace("{site_url}/{url}");</script>
 </head>
